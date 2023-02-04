@@ -1,0 +1,170 @@
+/* To change this license header, choose License Headers in Project Properties. To change this template file, choose Tools | Templates and open the template in the editor. */
+/* Created on : 26-Feb-2019, 9:36:57 AM Author : nicolesawler */
+/* HEADER */
+/* Hand */
+ @media (min-width:2000px) {
+     .hand{
+         width:620px;
+         height:710px;
+         background:transparent url("../images/hand.png") no-repeat center center;
+         background-size:contain;
+         top:55px;
+    }
+}
+ @media (max-width:1999px) {
+     .hand{
+         width:420px;
+         height:610px;
+         background:transparent url("../images/hand.png") no-repeat center center;
+         background-size:contain;
+         top:55px;
+    }
+}
+ @media (max-width:950px){
+     .hand{
+         width:350px;
+         height:500px;
+         background:transparent url("../images/hand.png") no-repeat center center;
+         background-size:contain;
+         top:85px;
+    }
+}
+/* Opening Text */
+ @media (min-width:1850px) {
+     .opening{
+         max-width:100%;
+         width:100%;
+         display:block;
+    }
+}
+ @media (min-width:1401px) and (max-width:1849px){
+     .opening{
+         max-width:90%;
+         width:90%;
+         display:block;
+    }
+}
+ @media (min-width:1191px) and (max-width:1400px) {
+     .opening{
+         max-width:80%;
+         width:80%;
+         display:block;
+    }
+}
+ @media (min-width:851px) and (max-width:1190px) {
+     .opening{
+         max-width:70%;
+         width:70%;
+         display:block;
+    }
+}
+ @media (min-width:670px) and (max-width:850px) {
+     .opening{
+         max-width:60%;
+         width:60%;
+         display:block;
+    }
+     .second img.intro{
+         margin-top:-20px;
+    }
+}
+/* Smallest Header */
+ @media (max-width:670px){
+     .hand{
+         display:none;
+    }
+     .opening{
+         max-width:100%;
+         width:100%;
+         display:block;
+    }
+     .opening p{
+         padding:10px;
+    }
+     .second img.intro{
+         margin-top:-20px;
+         max-width:100%;
+         position:relative;
+         z-index:3;
+    }
+}
+/* ROLLOVERS */
+ @media (max-width:900px) {
+     .rollover .overlay h3 {
+         padding: 20px 20px 0px 30px;
+    }
+}
+ @media (max-width:960px){
+     .roll{
+         margin: 0 auto;
+         text-align: center;
+         width: 280px;
+    }
+     .rolly{
+         width: 100%;
+         margin: 0 auto;
+         text-align:center;
+    }
+}
+ @media (max-width:875px){
+     
+.mobile-ribbon img{
+    width:330px;
+    margin:30px auto;
+    display:block;
+}
+     
+     .rollovers h2{
+         display:none;
+         position:relative;
+         color:white;
+         font-size:18px;
+         font-family:'Ubu-B';
+         text-transform:uppercase;
+         font-weight:900;
+         max-width:600px;
+         height:125px;
+         background:transparent url("../images/ribbon-mobile.png") no-repeat bottom center;
+         background-size:contain;
+    }
+     .rollovers h2 p{
+         position:absolute;
+         top:50px;
+         left:50%;
+         transform:translate(-50%,-50%);
+         padding:0;
+         width:100%;
+    }
+     .rollovers h2 span{
+         display:block;
+    }
+    .rollovers {
+        padding: 30px 0 50px 0;
+    }
+}
+/* @media (max-width:600px){
+     .rollovers h2 p{
+         position:absolute;
+         left:50%;
+         transform:translate(-50%,-50%);
+         padding-top:30px;
+    }
+}
+ @media (min-width:421px) and (max-width:485px){
+     .rollovers h2 p{
+         padding-top:50px;
+         font-size:18px;
+    }
+}
+ @media (max-width:420px){
+     .rollovers h2 p{
+         font-size:18px;
+         padding-top:65px;
+    }
+}
+ @media (max-width:350px){
+     .rollovers h2 p{
+         font-size:18px;
+         padding-top:80px;
+    }
+}*/
